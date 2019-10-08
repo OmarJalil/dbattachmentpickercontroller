@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://bitbucket.org/omarjalil/dbattachmentpickercontroller.git' }
-  s.source_files = './**/*.{h,m}'
-  s.resources = './**/*.{xib}'
+  s.source_files = '**/*.{h,m}'
+  s.resources = '**/*.{xib}'
   s.resource_bundle = { 'DBAttachmentPickerController' => ['Source/Localization/*.lproj'] }
-  s.public_header_files = './**/*.h'
+  s.public_header_files = '**/*.h'
 end
